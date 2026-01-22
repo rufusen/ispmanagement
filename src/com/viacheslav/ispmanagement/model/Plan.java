@@ -61,4 +61,14 @@ public class Plan {
   public void setDescription(String description) {
     this.description = description;
   }
+
+  @Override
+  public String toString() {
+    return "Plan{" +
+        "id=" + id +
+        ", name='" + name + '\'' +
+        ", price=" + price +
+        ", speed=" + speedMbps +
+        '}';
+  }
 }

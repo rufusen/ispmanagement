@@ -1,0 +1,30 @@
+[
+  {
+    "id": "c2077f5d-985a-48bc-ab0f-7032d9a3315a",
+    "name": "Test Plan",
+    "price": 500,
+    "speedMbps": 500,
+    "description": "Test description"
+  },
+  {
+    "id": "d8888d18-2d31-4e47-b04a-88bebbb1759a",
+    "name": "Test Plan",
+    "price": 500,
+    "speedMbps": 500,
+    "description": "Test description"
+  },
+  {
+    "id": "922beead-1c15-4f3a-b380-c2fad4ef6dc6",
+    "name": "Test Plan",
+    "price": 500,
+    "speedMbps": 500,
+    "description": "Test description"
+  },
+  {
+    "id": "429e1ca1-8ba4-4173-af39-49d098ba8407",
+    "name": "Test Plan",
+    "price": 500,
+    "speedMbps": 500,
+    "description": "Test description"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "78ebcac7-6ec7-4dd8-9b3f-6b39c1331b17",
+    "type": "Router",
+    "serialNumber": "SN-12345",
+    "installDate": "2026-01-22"
+  },
+  {
+    "id": "56b52aad-6969-462d-b85e-89014812fdf0",
+    "type": "Router",
+    "serialNumber": "SN-12345",
+    "installDate": "2026-01-22"
+  },
+  {
+    "id": "b5c0a56c-fa9a-482a-af21-beb9e8a35cc0",
+    "type": "Router",
+    "serialNumber": "SN-12345",
+    "installDate": "2026-01-22"
+  },
+  {
+    "id": "a46f0485-61b6-4231-a48d-c5cef2d71292",
+    "type": "Router",
+    "serialNumber": "SN-12345",
+    "installDate": "2026-01-22"
+  }
+]

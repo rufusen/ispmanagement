@@ -1,0 +1,26 @@
+[
+  {
+    "id": "6b8b6361-c0c3-4a99-be87-3897afd37622",
+    "createdAt": "2026-01-22T18:25:09.398746200",
+    "status": "OPEN",
+    "description": "No internet"
+  },
+  {
+    "id": "4bbe76d7-1395-43c6-bf75-cce687260bae",
+    "createdAt": "2026-01-22T18:42:13.009592700",
+    "status": "OPEN",
+    "description": "No internet"
+  },
+  {
+    "id": "762e68bc-1300-4258-a40b-f025a0c8f994",
+    "createdAt": "2026-01-22T18:29:11.556053100",
+    "status": "OPEN",
+    "description": "No internet"
+  },
+  {
+    "id": "5718c6e0-86b4-4c0a-a55d-ec180fcdc226",
+    "createdAt": "2026-01-22T18:38:24.603918",
+    "status": "OPEN",
+    "description": "No internet"
+  }
+]

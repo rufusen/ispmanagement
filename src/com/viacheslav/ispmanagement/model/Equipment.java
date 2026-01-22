@@ -20,6 +20,16 @@ public class Equipment {
     this.installDate = installDate;
   }
 
+  @Override
+  public String toString() {
+    return "Equipment{" +
+        "id=" + id +
+        ", type='" + type + '\'' +
+        ", serialNumber='" + serialNumber + '\'' +
+        ", installDate=" + installDate +
+        '}';
+  }
+
   public UUID getId() {
     return id;
   }

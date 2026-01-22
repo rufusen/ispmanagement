@@ -1,0 +1,316 @@
+[
+  {
+    "id": "dc32e7f8-1770-4e19-83a1-c80597ae867d",
+    "fullName": "Test User",
+    "phone": "+380000000000",
+    "registrationDate": "2026-01-22",
+    "plan": {
+      "id": "d8888d18-2d31-4e47-b04a-88bebbb1759a",
+      "name": "Test Plan",
+      "price": 500,
+      "speedMbps": 500,
+      "description": "Test description"
+    },
+    "payments": [],
+    "equipmentList": [],
+    "tickets": []
+  },
+  {
+    "id": "d0f54860-ca9a-4bcc-9a18-c71499b3f0c9",
+    "fullName": "Test User",
+    "phone": "+380000000000",
+    "registrationDate": "2026-01-22",
+    "plan": {
+      "id": "922beead-1c15-4f3a-b380-c2fad4ef6dc6",
+      "name": "Test Plan",
+      "price": 500,
+      "speedMbps": 500,
+      "description": "Test description"
+    },
+    "payments": [],
+    "equipmentList": [],
+    "tickets": []
+  },
+  {
+    "id": "56f94120-23f7-49ea-9ff3-2adf816f77e0",
+    "fullName": "Caren McDermott",
+    "phone": "1-603-818-8064",
+    "registrationDate": "2026-01-22",
+    "address": {
+      "id": "a62b60cd-582f-410f-b8ee-d07dfbef2dc1",
+      "city": "East Roy",
+      "street": "Florencia Creek",
+      "house": "6638",
+      "apartment": "Suite 731"
+    },
+    "plan": {
+      "id": "adaabf77-6489-486d-9d77-2f3c7570e6fd",
+      "name": "Plan schaefer",
+      "price": 594,
+      "speedMbps": 558,
+      "description": "Test internet plan"
+    },
+    "user": {
+      "id": "8b6bf782-a0c7-401b-bb07-fafff83a6660",
+      "email": "larry.willms@yahoo.com",
+      "passwordHash": "hashed_password",
+      "role": "SUBSCRIBER"
+    },
+    "payments": [
+      {
+        "id": "5bece69f-f1e1-48e9-90a2-369ca225c5a2",
+        "paymentDate": "2026-01-22T18:18:14.841965800",
+        "amount": 500,
+        "method": "CARD"
+      }
+    ],
+    "equipmentList": [
+      {
+        "id": "81aa8051-c5ac-4e89-85f4-04bf726e54be",
+        "type": "Router",
+        "serialNumber": "tL\u0026^J@24CVF\u003dzP46Lxixk`_a#\u003do6c5",
+        "installDate": "2026-01-22"
+      }
+    ],
+    "tickets": [
+      {
+        "id": "dccf1ea7-ff7f-4ce0-9ac8-20c9a8ff0a9e",
+        "createdAt": "2026-01-22T18:18:14.841965800",
+        "status": "OPEN",
+        "description": "Internet connection issue"
+      }
+    ]
+  },
+  {
+    "id": "91b40360-0bc1-4c2a-bdaf-3270ee72725a",
+    "fullName": "Stefany Kautzer",
+    "phone": "858.520.5337",
+    "registrationDate": "2026-01-22",
+    "address": {
+      "id": "286b3d3a-1a2e-42d2-8b13-eb4dbdb3f4b2",
+      "city": "East Jermaine",
+      "street": "Satterfield Pike",
+      "house": "7153",
+      "apartment": "Apt. 753"
+    },
+    "plan": {
+      "id": "9eefcb53-0348-472e-bdba-e69d7901089e",
+      "name": "Plan jakubowski",
+      "price": 507,
+      "speedMbps": 219,
+      "description": "Test internet plan"
+    },
+    "user": {
+      "id": "dc26506b-b679-418a-b903-aae29887f012",
+      "email": "eldon.runolfsdottir@yahoo.com",
+      "passwordHash": "hashed_password",
+      "role": "SUBSCRIBER"
+    },
+    "payments": [
+      {
+        "id": "9d027c63-d144-4949-83a9-c1a404fb2378",
+        "paymentDate": "2026-01-22T18:18:14.814905800",
+        "amount": 500,
+        "method": "CARD"
+      }
+    ],
+    "equipmentList": [
+      {
+        "id": "4a93eefb-f0cf-4cd5-b9ba-ce3adc10c71d",
+        "type": "Router",
+        "serialNumber": "05skEogwZlX7j6twhhXX",
+        "installDate": "2026-01-22"
+      }
+    ],
+    "tickets": [
+      {
+        "id": "b4266ab9-7430-49aa-9f8b-95576906cc9f",
+        "createdAt": "2026-01-22T18:18:14.822340",
+        "status": "OPEN",
+        "description": "Internet connection issue"
+      }
+    ]
+  },
+  {
+    "id": "628b40ee-2ec2-42c7-82ad-4fa48ac94b09",
+    "fullName": "Jenifer Roberts",
+    "phone": "(260) 770-5951",
+    "registrationDate": "2026-01-22",
+    "address": {
+      "id": "5a51fa5e-9301-4bd6-b003-7002c6b0d4a9",
+      "city": "Reillyberg",
+      "street": "Sergio Track",
+      "house": "29538",
+      "apartment": "Suite 266"
+    },
+    "plan": {
+      "id": "9cf910e5-197e-4a08-8db3-142e039be015",
+      "name": "Plan glover",
+      "price": 413,
+      "speedMbps": 729,
+      "description": "Test internet plan"
+    },
+    "user": {
+      "id": "dc98fced-be87-443c-a763-a3984ef7b923",
+      "email": "delores.considine@yahoo.com",
+      "passwordHash": "hashed_password",
+      "role": "SUBSCRIBER"
+    },
+    "payments": [
+      {
+        "id": "a7d66c6b-a60c-43a8-9cdd-372fd5eae485",
+        "paymentDate": "2026-01-22T18:18:14.839965700",
+        "amount": 500,
+        "method": "CARD"
+      }
+    ],
+    "equipmentList": [
+      {
+        "id": "cec56afd-6a34-4f18-9b2f-e076c10777fc",
+        "type": "Router",
+        "serialNumber": "05skEogwZlX7j6twhhXX",
+        "installDate": "2026-01-22"
+      }
+    ],
+    "tickets": [
+      {
+        "id": "f4bc4738-1e13-496b-922d-d0b1a83a35ef",
+        "createdAt": "2026-01-22T18:18:14.839965700",
+        "status": "OPEN",
+        "description": "Internet connection issue"
+      }
+    ]
+  },
+  {
+    "id": "2c146080-ce78-428a-988d-88de25853d39",
+    "fullName": "Test User",
+    "phone": "+380000000000",
+    "registrationDate": "2026-01-22",
+    "plan": {
+      "id": "429e1ca1-8ba4-4173-af39-49d098ba8407",
+      "name": "Test Plan",
+      "price": 500,
+      "speedMbps": 500,
+      "description": "Test description"
+    },
+    "payments": [],
+    "equipmentList": [],
+    "tickets": []
+  },
+  {
+    "id": "7753f801-2245-45bb-8170-ed26b65c7c7a",
+    "fullName": "Vern Luettgen",
+    "phone": "(859) 972-3630",
+    "registrationDate": "2026-01-22",
+    "address": {
+      "id": "2fb92e09-2e1a-437e-bbd5-101652ba8022",
+      "city": "North Cheree",
+      "street": "Ray Meadows",
+      "house": "800",
+      "apartment": "Suite 628"
+    },
+    "plan": {
+      "id": "c268fb8f-5436-4c7e-925a-1fe738816ffa",
+      "name": "Plan koch",
+      "price": 468,
+      "speedMbps": 534,
+      "description": "Test internet plan"
+    },
+    "user": {
+      "id": "3d48a2a8-df77-40ad-8eec-a63e7eb46b3e",
+      "email": "katerine.hyatt@hotmail.com",
+      "passwordHash": "hashed_password",
+      "role": "SUBSCRIBER"
+    },
+    "payments": [
+      {
+        "id": "6f1fb100-436c-4658-ae84-f51bebab98b5",
+        "paymentDate": "2026-01-22T18:18:14.842967100",
+        "amount": 500,
+        "method": "CARD"
+      }
+    ],
+    "equipmentList": [
+      {
+        "id": "e2e7c31a-73a0-45fa-a892-45c2a2b848fc",
+        "type": "Router",
+        "serialNumber": "\u0026XwUS6yR2N\u0026+Z`$94eK@XzFp/p/ie^",
+        "installDate": "2026-01-22"
+      }
+    ],
+    "tickets": [
+      {
+        "id": "1800edac-02c5-4b7f-b0bc-5a31879c09a0",
+        "createdAt": "2026-01-22T18:18:14.842967100",
+        "status": "OPEN",
+        "description": "Internet connection issue"
+      }
+    ]
+  },
+  {
+    "id": "a0f57292-ef6d-4d80-a708-80cadcf03be4",
+    "fullName": "Test User",
+    "phone": "+380000000000",
+    "registrationDate": "2026-01-22",
+    "plan": {
+      "id": "c2077f5d-985a-48bc-ab0f-7032d9a3315a",
+      "name": "Test Plan",
+      "price": 500,
+      "speedMbps": 500,
+      "description": "Test description"
+    },
+    "payments": [],
+    "equipmentList": [],
+    "tickets": []
+  },
+  {
+    "id": "a8ffa588-a32b-4e40-8fe2-b2a7296f5adb",
+    "fullName": "Bryce Roob",
+    "phone": "252-682-0155",
+    "registrationDate": "2026-01-22",
+    "address": {
+      "id": "3b64ee92-c04d-4b0c-8193-0ed1b79c0dcb",
+      "city": "Ashantiberg",
+      "street": "Jamel Road",
+      "house": "494",
+      "apartment": "Suite 600"
+    },
+    "plan": {
+      "id": "01a39d25-81aa-4210-a90e-64f55afcb607",
+      "name": "Plan grady",
+      "price": 472,
+      "speedMbps": 738,
+      "description": "Test internet plan"
+    },
+    "user": {
+      "id": "ce3236c9-b58b-4ae3-b5f6-214c0e509a50",
+      "email": "tasia.kerluke@gmail.com",
+      "passwordHash": "hashed_password",
+      "role": "SUBSCRIBER"
+    },
+    "payments": [
+      {
+        "id": "ac75a9f0-6dca-4fd1-ab79-1b17245a200b",
+        "paymentDate": "2026-01-22T18:18:14.838466800",
+        "amount": 500,
+        "method": "CARD"
+      }
+    ],
+    "equipmentList": [
+      {
+        "id": "f5790ff8-66c7-4c64-b7f7-ece2bfe01ff1",
+        "type": "Router",
+        "serialNumber": "Hk4BoF\u003d%ud/PV4K-/NvEq28Q/\u0026HNq7",
+        "installDate": "2026-01-22"
+      }
+    ],
+    "tickets": [
+      {
+        "id": "a477ab29-fe27-4f98-a77b-06a6064ea1a2",
+        "createdAt": "2026-01-22T18:18:14.838466800",
+        "status": "OPEN",
+        "description": "Internet connection issue"
+      }
+    ]
+  }
+]

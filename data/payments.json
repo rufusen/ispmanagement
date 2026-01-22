@@ -1,0 +1,26 @@
+[
+  {
+    "id": "248c3403-6607-4896-a315-c9b3a3e10dac",
+    "paymentDate": "2026-01-22T18:42:13.006511",
+    "amount": 500,
+    "method": "CARD"
+  },
+  {
+    "id": "99310bbe-27da-45b2-88bf-dfe3ca88b68e",
+    "paymentDate": "2026-01-22T18:38:24.600403300",
+    "amount": 500,
+    "method": "CARD"
+  },
+  {
+    "id": "cad1cd24-b3e7-4c9a-828d-4cac0f262db1",
+    "paymentDate": "2026-01-22T18:25:09.395846500",
+    "amount": 500,
+    "method": "CARD"
+  },
+  {
+    "id": "158a3f94-7437-4f83-a15f-2e5d8f9ebc48",
+    "paymentDate": "2026-01-22T18:29:11.553241600",
+    "amount": 500,
+    "method": "CARD"
+  }
+]

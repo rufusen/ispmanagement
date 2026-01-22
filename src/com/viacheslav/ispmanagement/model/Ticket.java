@@ -20,6 +20,16 @@ public class Ticket {
     this.description = description;
   }
 
+  @Override
+  public String toString() {
+    return "Ticket{" +
+        "id=" + id +
+        ", status=" + status +
+        ", createdAt=" + createdAt +
+        ", description='" + description + '\'' +
+        '}';
+  }
+
   public UUID getId() {
     return id;
   }

@@ -52,4 +52,14 @@ public class Payment {
   public void setMethod(String method) {
     this.method = method;
   }
+
+  @Override
+  public String toString() {
+    return "Payment{" +
+        "id=" + id +
+        ", amount=" + amount +
+        ", paymentDate=" + paymentDate +
+        ", method='" + method + '\'' +
+        '}';
+  }
 }

@@ -115,5 +115,17 @@ public class Subscriber {
 
   public void setTickets(List<Ticket> tickets) {
     this.tickets = tickets;
+
+  }
+
+  @Override
+  public String toString() {
+    return "Subscriber{" +
+        "id=" + id +
+        ", fullName='" + fullName + '\'' +
+        ", phone='" + phone + '\'' +
+        ", registrationDate=" + registrationDate +
+        ", plan=" + (plan != null ? plan.getName() : "none") +
+        '}';
   }
 }

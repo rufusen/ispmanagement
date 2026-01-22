@@ -51,6 +51,15 @@ public class User {
     this.role = role;
   }
 
+  @Override
+  public String toString() {
+    return "User{" +
+        "id=" + id +
+        ", email='" + email + '\'' +
+        ", role=" + role +
+        '}';
+  }
+
   public enum Role {
     ADMIN,
     OPERATOR,
