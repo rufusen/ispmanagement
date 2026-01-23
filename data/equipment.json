@@ -18,6 +18,12 @@
     "installDate": "2026-01-22"
   },
   {
+    "id": "fa818806-b8b2-4213-ae34-054af002ddb0",
+    "type": "Router",
+    "serialNumber": "SN-12345",
+    "installDate": "2026-01-22"
+  },
+  {
     "id": "a46f0485-61b6-4231-a48d-c5cef2d71292",
     "type": "Router",
     "serialNumber": "SN-12345",

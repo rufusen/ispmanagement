@@ -22,5 +22,17 @@
     "createdAt": "2026-01-22T18:38:24.603918",
     "status": "OPEN",
     "description": "No internet"
+  },
+  {
+    "id": "c79d5efc-31cb-46d7-bf3d-2096c9aacd87",
+    "createdAt": "2026-01-22T19:09:43.295804400",
+    "status": "OPEN",
+    "description": "No internet"
+  },
+  {
+    "id": "88a30155-51ac-4b2a-8525-2904fc2c17b2",
+    "createdAt": "2026-01-23T14:53:20.767591200",
+    "status": "CLOSED",
+    "description": "Internet connection is slow"
   }
 ]

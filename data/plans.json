@@ -26,5 +26,12 @@
     "price": 500,
     "speedMbps": 500,
     "description": "Test description"
+  },
+  {
+    "id": "14c1d91a-1c8e-42e0-87a9-450ed249c2a4",
+    "name": "Test Plan",
+    "price": 500,
+    "speedMbps": 500,
+    "description": "Test description"
   }
 ]

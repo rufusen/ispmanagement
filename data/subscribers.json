@@ -1,5 +1,21 @@
 [
   {
+    "id": "b4367856-e8de-4ae3-97c2-9a191e77bf32",
+    "fullName": "Test User",
+    "phone": "+380000000000",
+    "registrationDate": "2026-01-22",
+    "plan": {
+      "id": "14c1d91a-1c8e-42e0-87a9-450ed249c2a4",
+      "name": "Test Plan",
+      "price": 500,
+      "speedMbps": 500,
+      "description": "Test description"
+    },
+    "payments": [],
+    "equipmentList": [],
+    "tickets": []
+  },
+  {
     "id": "dc32e7f8-1770-4e19-83a1-c80597ae867d",
     "fullName": "Test User",
     "phone": "+380000000000",
@@ -310,6 +326,49 @@
         "createdAt": "2026-01-22T18:18:14.838466800",
         "status": "OPEN",
         "description": "Internet connection issue"
+      }
+    ]
+  },
+  {
+    "id": "4392fd03-8cd3-49af-a8ec-e6674d0697bf",
+    "fullName": "John Doe",
+    "phone": "+380501234567",
+    "registrationDate": "2026-01-23",
+    "address": {
+      "id": "319e0b4c-3876-4b10-9ece-b23d811f9754",
+      "city": "Kyiv",
+      "street": "Main Street",
+      "house": "10",
+      "apartment": "5A"
+    },
+    "plan": {
+      "id": "c2077f5d-985a-48bc-ab0f-7032d9a3315a",
+      "name": "Test Plan",
+      "price": 500,
+      "speedMbps": 500,
+      "description": "Test description"
+    },
+    "user": {
+      "id": "0eb1ac9a-cdb7-4dcf-8332-0f11edbf6e2c",
+      "email": "john.doe@example.com",
+      "passwordHash": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+      "role": "SUBSCRIBER"
+    },
+    "payments": [
+      {
+        "id": "a82ada1e-4a95-41eb-8835-0eabf069ef96",
+        "paymentDate": "2026-01-23T14:53:20.743659400",
+        "amount": 500,
+        "method": "CARD"
+      }
+    ],
+    "equipmentList": [],
+    "tickets": [
+      {
+        "id": "88a30155-51ac-4b2a-8525-2904fc2c17b2",
+        "createdAt": "2026-01-23T14:53:20.767591200",
+        "status": "OPEN",
+        "description": "Internet connection is slow"
       }
     ]
   }
