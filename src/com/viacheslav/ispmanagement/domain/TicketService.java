@@ -8,9 +8,6 @@ import java.time.LocalDateTime;
 import java.util.List;
 import java.util.UUID;
 
-/**
- * Service for ticket business logic.
- */
 public class TicketService {
 
   private final UnitOfWork unitOfWork;
@@ -19,17 +16,11 @@ public class TicketService {
     this.unitOfWork = unitOfWork;
   }
 
-  /**
-   * Opens a new ticket for a subscriber.
-   *
-   * @param dto ticket creation data
-   * @return created ticket
-   * @throws IllegalArgumentException if subscriber not found
-   */
   public Ticket openTicket(TicketCreateDto dto) {
     // Validate subscriber exists
     Subscriber subscriber = unitOfWork.subscribers().findById(dto.getSubscriberId())
-        .orElseThrow(() -> new IllegalArgumentException("Subscriber not found: " + dto.getSubscriberId()));
+        .orElseThrow(
+            () -> new IllegalArgumentException("Subscriber not found: " + dto.getSubscriberId()));
 
     // Create ticket
     Ticket ticket = new Ticket(
@@ -51,13 +42,6 @@ public class TicketService {
     return ticket;
   }
 
-  /**
-   * Closes a ticket.
-   *
-   * @param ticketId ticket ID
-   * @return updated ticket
-   * @throws IllegalArgumentException if ticket not found
-   */
   public Ticket closeTicket(UUID ticketId) {
     Ticket ticket = unitOfWork.tickets().findById(ticketId)
         .orElseThrow(() -> new IllegalArgumentException("Ticket not found: " + ticketId));
@@ -67,13 +51,6 @@ public class TicketService {
     return ticket;
   }
 
-  /**
-   * Updates ticket status to IN_PROGRESS.
-   *
-   * @param ticketId ticket ID
-   * @return updated ticket
-   * @throws IllegalArgumentException if ticket not found
-   */
   public Ticket startTicket(UUID ticketId) {
     Ticket ticket = unitOfWork.tickets().findById(ticketId)
         .orElseThrow(() -> new IllegalArgumentException("Ticket not found: " + ticketId));
@@ -83,12 +60,6 @@ public class TicketService {
     return ticket;
   }
 
-  /**
-   * Gets all tickets for a subscriber.
-   *
-   * @param subscriberId subscriber ID
-   * @return list of tickets
-   */
   public List<Ticket> getTicketsBySubscriber(UUID subscriberId) {
     Subscriber subscriber = unitOfWork.subscribers().findById(subscriberId)
         .orElseThrow(() -> new IllegalArgumentException("Subscriber not found: " + subscriberId));
@@ -96,31 +67,14 @@ public class TicketService {
     return subscriber.getTickets() != null ? subscriber.getTickets() : List.of();
   }
 
-  /**
-   * Gets tickets by status.
-   *
-   * @param status ticket status
-   * @return list of tickets
-   */
   public List<Ticket> getTicketsByStatus(Ticket.Status status) {
     return unitOfWork.tickets().filterByStatus(status);
   }
 
-  /**
-   * Gets all open tickets.
-   *
-   * @return list of open tickets
-   */
   public List<Ticket> getOpenTickets() {
     return getTicketsByStatus(Ticket.Status.OPEN);
   }
 
-  /**
-   * Finds ticket by ID.
-   *
-   * @param id ticket ID
-   * @return ticket or null if not found
-   */
   public Ticket findById(UUID id) {
     return unitOfWork.tickets().findById(id).orElse(null);
   }

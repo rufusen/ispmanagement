@@ -9,9 +9,6 @@ import java.security.NoSuchAlgorithmException;
 import java.util.List;
 import java.util.UUID;
 
-/**
- * Service for user business logic.
- */
 public class UserService {
 
   private final UnitOfWork unitOfWork;
@@ -20,53 +17,22 @@ public class UserService {
     this.unitOfWork = unitOfWork;
   }
 
-  /**
-   * Finds user by ID.
-   *
-   * @param id user ID
-   * @return user or null if not found
-   */
   public User findById(UUID id) {
     return unitOfWork.users().findById(id).orElse(null);
   }
 
-  /**
-   * Finds user by email.
-   *
-   * @param email user email
-   * @return user or null if not found
-   */
   public User findByEmail(String email) {
     return unitOfWork.users().findByEmail(email).orElse(null);
   }
 
-  /**
-   * Gets all users.
-   *
-   * @return list of all users
-   */
   public List<User> getAllUsers() {
     return unitOfWork.users().findAll();
   }
 
-  /**
-   * Gets users by role.
-   *
-   * @param role user role
-   * @return list of users with specified role
-   */
   public List<User> getUsersByRole(User.Role role) {
     return unitOfWork.users().filterByRole(role);
   }
 
-  /**
-   * Updates user information.
-   *
-   * @param userId user ID
-   * @param dto    update data
-   * @return updated user
-   * @throws IllegalArgumentException if user not found or email already exists
-   */
   public User updateUser(UUID userId, UserUpdateDto dto) {
     User user = unitOfWork.users().findById(userId)
         .orElseThrow(() -> new IllegalArgumentException("User not found: " + userId));
@@ -90,12 +56,6 @@ public class UserService {
     return user;
   }
 
-  /**
-   * Deletes a user.
-   *
-   * @param userId user ID
-   * @throws IllegalArgumentException if user not found
-   */
   public void deleteUser(UUID userId) {
     if (unitOfWork.users().findById(userId).isEmpty()) {
       throw new IllegalArgumentException("User not found: " + userId);
@@ -103,12 +63,6 @@ public class UserService {
     unitOfWork.users().deleteById(userId);
   }
 
-  /**
-   * Hashes a password using SHA-256.
-   *
-   * @param password plain text password
-   * @return hashed password
-   */
   private String hashPassword(String password) {
     try {
       MessageDigest digest = MessageDigest.getInstance("SHA-256");

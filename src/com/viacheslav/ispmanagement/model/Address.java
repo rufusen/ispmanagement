@@ -2,9 +2,6 @@ package com.viacheslav.ispmanagement.model;
 
 import java.util.UUID;
 
-/**
- * Address entity represents subscriber connection address.
- */
 public class Address {
 
   private UUID id;

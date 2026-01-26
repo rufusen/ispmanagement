@@ -24,6 +24,12 @@
     "method": "CARD"
   },
   {
+    "id": "2bd2543e-3128-4ab0-878f-c58bdad3aeae",
+    "paymentDate": "2026-01-26T17:32:04.778279200",
+    "amount": 1111,
+    "method": "готівка"
+  },
+  {
     "id": "cad1cd24-b3e7-4c9a-828d-4cac0f262db1",
     "paymentDate": "2026-01-22T18:25:09.395846500",
     "amount": 500,
@@ -34,5 +40,11 @@
     "paymentDate": "2026-01-22T18:29:11.553241600",
     "amount": 500,
     "method": "CARD"
+  },
+  {
+    "id": "f94c87c1-1361-4753-b498-28cfe32ff6b9",
+    "paymentDate": "2026-01-26T17:45:34.012103600",
+    "amount": 121212,
+    "method": "готівкап"
   }
 ]

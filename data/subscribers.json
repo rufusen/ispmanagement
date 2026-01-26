@@ -11,39 +11,14 @@
       "speedMbps": 500,
       "description": "Test description"
     },
-    "payments": [],
-    "equipmentList": [],
-    "tickets": []
-  },
-  {
-    "id": "dc32e7f8-1770-4e19-83a1-c80597ae867d",
-    "fullName": "Test User",
-    "phone": "+380000000000",
-    "registrationDate": "2026-01-22",
-    "plan": {
-      "id": "d8888d18-2d31-4e47-b04a-88bebbb1759a",
-      "name": "Test Plan",
-      "price": 500,
-      "speedMbps": 500,
-      "description": "Test description"
-    },
-    "payments": [],
-    "equipmentList": [],
-    "tickets": []
-  },
-  {
-    "id": "d0f54860-ca9a-4bcc-9a18-c71499b3f0c9",
-    "fullName": "Test User",
-    "phone": "+380000000000",
-    "registrationDate": "2026-01-22",
-    "plan": {
-      "id": "922beead-1c15-4f3a-b380-c2fad4ef6dc6",
-      "name": "Test Plan",
-      "price": 500,
-      "speedMbps": 500,
-      "description": "Test description"
-    },
-    "payments": [],
+    "payments": [
+      {
+        "id": "2bd2543e-3128-4ab0-878f-c58bdad3aeae",
+        "paymentDate": "2026-01-26T17:32:04.778279200",
+        "amount": 1111,
+        "method": "готівка"
+      }
+    ],
     "equipmentList": [],
     "tickets": []
   },
@@ -148,8 +123,30 @@
     ]
   },
   {
+    "id": "3fd39755-f008-4112-8493-605bfe9b36c7",
+    "fullName": "ewfweewfwef@gmail.com",
+    "phone": "not specified",
+    "registrationDate": "2026-01-26",
+    "plan": {
+      "id": "bb85ea05-ad56-45c1-8baa-4f7f87c613c6",
+      "name": "мінімальний",
+      "price": 160,
+      "speedMbps": 100,
+      "description": "звичайна швидкість"
+    },
+    "user": {
+      "id": "3854d683-d3d9-405a-9744-e5375ac7c320",
+      "email": "ewfweewfwef@gmail.com",
+      "passwordHash": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+      "role": "SUBSCRIBER"
+    },
+    "payments": [],
+    "equipmentList": [],
+    "tickets": []
+  },
+  {
     "id": "628b40ee-2ec2-42c7-82ad-4fa48ac94b09",
-    "fullName": "Jenifer Roberts",
+    "fullName": "dwdwdwdwd",
     "phone": "(260) 770-5951",
     "registrationDate": "2026-01-22",
     "address": {
@@ -160,11 +157,11 @@
       "apartment": "Suite 266"
     },
     "plan": {
-      "id": "9cf910e5-197e-4a08-8db3-142e039be015",
-      "name": "Plan glover",
-      "price": 413,
-      "speedMbps": 729,
-      "description": "Test internet plan"
+      "id": "bb85ea05-ad56-45c1-8baa-4f7f87c613c6",
+      "name": "мінімальний",
+      "price": 160,
+      "speedMbps": 100,
+      "description": "звичайна швидкість"
     },
     "user": {
       "id": "dc98fced-be87-443c-a763-a3984ef7b923",
@@ -214,54 +211,136 @@
     "tickets": []
   },
   {
-    "id": "7753f801-2245-45bb-8170-ed26b65c7c7a",
-    "fullName": "Vern Luettgen",
-    "phone": "(859) 972-3630",
-    "registrationDate": "2026-01-22",
+    "id": "9249c978-71a5-4e36-8fcf-29593ac551dc",
+    "fullName": "edededed",
+    "phone": "380970876571",
+    "registrationDate": "2026-01-26",
     "address": {
-      "id": "2fb92e09-2e1a-437e-bbd5-101652ba8022",
-      "city": "North Cheree",
-      "street": "Ray Meadows",
-      "house": "800",
-      "apartment": "Suite 628"
+      "id": "4d3c8423-7c60-46c1-a783-d2170d670554",
+      "city": "sdfwedwe",
+      "street": "11",
+      "house": "12",
+      "apartment": "12"
     },
     "plan": {
-      "id": "c268fb8f-5436-4c7e-925a-1fe738816ffa",
-      "name": "Plan koch",
-      "price": 468,
-      "speedMbps": 534,
-      "description": "Test internet plan"
+      "id": "bb85ea05-ad56-45c1-8baa-4f7f87c613c6",
+      "name": "мінімальний",
+      "price": 160,
+      "speedMbps": 100,
+      "description": "звичайна швидкість"
     },
     "user": {
-      "id": "3d48a2a8-df77-40ad-8eec-a63e7eb46b3e",
-      "email": "katerine.hyatt@hotmail.com",
-      "passwordHash": "hashed_password",
+      "id": "30b0319e-419d-4e8e-aa13-9ba3a2d01f24",
+      "email": "slavaborsak65@gmail.com",
+      "passwordHash": "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3",
+      "role": "ADMIN"
+    },
+    "payments": [],
+    "equipmentList": [],
+    "tickets": []
+  },
+  {
+    "id": "ec0e83cf-9862-4190-83b5-83ecb6dca27b",
+    "fullName": "dsafwegawrgfer@gmail.com",
+    "phone": "not specified",
+    "registrationDate": "2026-01-26",
+    "plan": {
+      "id": "bb85ea05-ad56-45c1-8baa-4f7f87c613c6",
+      "name": "мінімальний",
+      "price": 160,
+      "speedMbps": 100,
+      "description": "звичайна швидкість"
+    },
+    "user": {
+      "id": "3c53cadb-957e-4218-a5ad-b15394870403",
+      "email": "dsafwegawrgfer@gmail.com",
+      "passwordHash": "c49b0dece16c3a6b89be2938c6fef6d0c91783c0d1b4176a23a0fe6d7f8ad0ba",
       "role": "SUBSCRIBER"
+    },
+    "payments": [],
+    "equipmentList": [],
+    "tickets": []
+  },
+  {
+    "id": "dc32e7f8-1770-4e19-83a1-c80597ae867d",
+    "fullName": "Test User",
+    "phone": "+380000000000",
+    "registrationDate": "2026-01-22",
+    "plan": {
+      "id": "d8888d18-2d31-4e47-b04a-88bebbb1759a",
+      "name": "Test Plan",
+      "price": 500,
+      "speedMbps": 500,
+      "description": "Test description"
+    },
+    "payments": [],
+    "equipmentList": [],
+    "tickets": []
+  },
+  {
+    "id": "0b6a659a-66b9-4fc0-bb7b-1e021f673c0f",
+    "fullName": "ffff",
+    "phone": "374857587564",
+    "registrationDate": "2026-01-26",
+    "address": {
+      "id": "60a43f96-0b6c-4272-bb34-3301835c515d",
+      "city": "dwfwefwf",
+      "street": "dwfwfwef",
+      "house": "12",
+      "apartment": "11"
+    },
+    "plan": {
+      "id": "bb85ea05-ad56-45c1-8baa-4f7f87c613c6",
+      "name": "мінімальний",
+      "price": 160,
+      "speedMbps": 100,
+      "description": "звичайна швидкість"
+    },
+    "user": {
+      "id": "89c9b6f6-89f4-4f4a-993c-fa593aab96ef",
+      "email": "slavaborsak68@gmail.com",
+      "passwordHash": "5994471abb01112afcc18159f6cc74b4f511b99806da59b3caf5a9c173cacfc5",
+      "role": "OPERATOR"
     },
     "payments": [
       {
-        "id": "6f1fb100-436c-4658-ae84-f51bebab98b5",
-        "paymentDate": "2026-01-22T18:18:14.842967100",
-        "amount": 500,
-        "method": "CARD"
+        "id": "f94c87c1-1361-4753-b498-28cfe32ff6b9",
+        "paymentDate": "2026-01-26T17:45:34.012103600",
+        "amount": 121212,
+        "method": "готівкап"
       }
     ],
-    "equipmentList": [
-      {
-        "id": "e2e7c31a-73a0-45fa-a892-45c2a2b848fc",
-        "type": "Router",
-        "serialNumber": "\u0026XwUS6yR2N\u0026+Z`$94eK@XzFp/p/ie^",
-        "installDate": "2026-01-22"
-      }
-    ],
-    "tickets": [
-      {
-        "id": "1800edac-02c5-4b7f-b0bc-5a31879c09a0",
-        "createdAt": "2026-01-22T18:18:14.842967100",
-        "status": "OPEN",
-        "description": "Internet connection issue"
-      }
-    ]
+    "equipmentList": [],
+    "tickets": []
+  },
+  {
+    "id": "43e03d45-d8c1-4161-aec8-6b1d606cb2e5",
+    "fullName": "василь григоренко",
+    "phone": "380970830581",
+    "registrationDate": "2026-01-26",
+    "address": {
+      "id": "d63a1c46-b9f1-4298-95a9-a0e2cbdcf703",
+      "city": "вваааа",
+      "street": "ацуаца",
+      "house": "12",
+      "apartment": "11"
+    },
+    "plan": {
+      "id": "14c1d91a-1c8e-42e0-87a9-450ed249c2a4",
+      "name": "Test Plan",
+      "price": 500,
+      "speedMbps": 500,
+      "description": "Test description"
+    },
+    "user": {
+      "id": "30b0319e-419d-4e8e-aa13-9ba3a2d01f24",
+      "email": "slavaborsak65@gmail.com",
+      "passwordHash": "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3",
+      "role": "ADMIN"
+    },
+    "payments": [],
+    "equipmentList": [],
+    "tickets": []
   },
   {
     "id": "a0f57292-ef6d-4d80-a708-80cadcf03be4",
@@ -278,98 +357,5 @@
     "payments": [],
     "equipmentList": [],
     "tickets": []
-  },
-  {
-    "id": "a8ffa588-a32b-4e40-8fe2-b2a7296f5adb",
-    "fullName": "Bryce Roob",
-    "phone": "252-682-0155",
-    "registrationDate": "2026-01-22",
-    "address": {
-      "id": "3b64ee92-c04d-4b0c-8193-0ed1b79c0dcb",
-      "city": "Ashantiberg",
-      "street": "Jamel Road",
-      "house": "494",
-      "apartment": "Suite 600"
-    },
-    "plan": {
-      "id": "01a39d25-81aa-4210-a90e-64f55afcb607",
-      "name": "Plan grady",
-      "price": 472,
-      "speedMbps": 738,
-      "description": "Test internet plan"
-    },
-    "user": {
-      "id": "ce3236c9-b58b-4ae3-b5f6-214c0e509a50",
-      "email": "tasia.kerluke@gmail.com",
-      "passwordHash": "hashed_password",
-      "role": "SUBSCRIBER"
-    },
-    "payments": [
-      {
-        "id": "ac75a9f0-6dca-4fd1-ab79-1b17245a200b",
-        "paymentDate": "2026-01-22T18:18:14.838466800",
-        "amount": 500,
-        "method": "CARD"
-      }
-    ],
-    "equipmentList": [
-      {
-        "id": "f5790ff8-66c7-4c64-b7f7-ece2bfe01ff1",
-        "type": "Router",
-        "serialNumber": "Hk4BoF\u003d%ud/PV4K-/NvEq28Q/\u0026HNq7",
-        "installDate": "2026-01-22"
-      }
-    ],
-    "tickets": [
-      {
-        "id": "a477ab29-fe27-4f98-a77b-06a6064ea1a2",
-        "createdAt": "2026-01-22T18:18:14.838466800",
-        "status": "OPEN",
-        "description": "Internet connection issue"
-      }
-    ]
-  },
-  {
-    "id": "4392fd03-8cd3-49af-a8ec-e6674d0697bf",
-    "fullName": "John Doe",
-    "phone": "+380501234567",
-    "registrationDate": "2026-01-23",
-    "address": {
-      "id": "319e0b4c-3876-4b10-9ece-b23d811f9754",
-      "city": "Kyiv",
-      "street": "Main Street",
-      "house": "10",
-      "apartment": "5A"
-    },
-    "plan": {
-      "id": "c2077f5d-985a-48bc-ab0f-7032d9a3315a",
-      "name": "Test Plan",
-      "price": 500,
-      "speedMbps": 500,
-      "description": "Test description"
-    },
-    "user": {
-      "id": "0eb1ac9a-cdb7-4dcf-8332-0f11edbf6e2c",
-      "email": "john.doe@example.com",
-      "passwordHash": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
-      "role": "SUBSCRIBER"
-    },
-    "payments": [
-      {
-        "id": "a82ada1e-4a95-41eb-8835-0eabf069ef96",
-        "paymentDate": "2026-01-23T14:53:20.743659400",
-        "amount": 500,
-        "method": "CARD"
-      }
-    ],
-    "equipmentList": [],
-    "tickets": [
-      {
-        "id": "88a30155-51ac-4b2a-8525-2904fc2c17b2",
-        "createdAt": "2026-01-23T14:53:20.767591200",
-        "status": "OPEN",
-        "description": "Internet connection is slow"
-      }
-    ]
   }
 ]

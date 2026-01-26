@@ -1,5 +1,26 @@
 [
   {
+    "id": "cb3edbd9-828e-47dd-b9ee-9c9a7dc1aae0",
+    "name": "ацуацуацуа",
+    "price": 12121,
+    "speedMbps": 2222,
+    "description": "ацуац3а"
+  },
+  {
+    "id": "bb85ea05-ad56-45c1-8baa-4f7f87c613c6",
+    "name": "мінімальний",
+    "price": 160,
+    "speedMbps": 100,
+    "description": "звичайна швидкість"
+  },
+  {
+    "id": "2b45e46f-c084-4a5d-abf0-90dd66faa721",
+    "name": "потужний",
+    "price": 2112,
+    "speedMbps": 1111111,
+    "description": "потужнометер зашкалив"
+  },
+  {
     "id": "c2077f5d-985a-48bc-ab0f-7032d9a3315a",
     "name": "Test Plan",
     "price": 500,

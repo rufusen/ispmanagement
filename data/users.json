@@ -1,8 +1,50 @@
 [
   {
+    "id": "89c9b6f6-89f4-4f4a-993c-fa593aab96ef",
+    "email": "slavaborsak68@gmail.com",
+    "passwordHash": "5994471abb01112afcc18159f6cc74b4f511b99806da59b3caf5a9c173cacfc5",
+    "role": "OPERATOR"
+  },
+  {
+    "id": "3854d683-d3d9-405a-9744-e5375ac7c320",
+    "email": "ewfweewfwef@gmail.com",
+    "passwordHash": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+    "role": "SUBSCRIBER"
+  },
+  {
+    "id": "7d3b95fb-54ef-4cc0-ae2c-b171e79675b5",
+    "email": "slavaborsak67@gmail.com",
+    "passwordHash": "bfe2e744ac3884d4e4f1c528fcad1cc5d88c177152e5270bfc7ade3324dcfe7e",
+    "role": "SUBSCRIBER"
+  },
+  {
     "id": "0eb1ac9a-cdb7-4dcf-8332-0f11edbf6e2c",
     "email": "john.doe@example.com",
     "passwordHash": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "role": "SUBSCRIBER"
+  },
+  {
+    "id": "3c53cadb-957e-4218-a5ad-b15394870403",
+    "email": "dsafwegawrgfer@gmail.com",
+    "passwordHash": "c49b0dece16c3a6b89be2938c6fef6d0c91783c0d1b4176a23a0fe6d7f8ad0ba",
+    "role": "SUBSCRIBER"
+  },
+  {
+    "id": "1cde462e-0823-49c4-bd00-9cc0b3c0ee60",
+    "email": "wegfwegweg@gmail.com",
+    "passwordHash": "cbfad02f9ed2a8d1e08d8f74f5303e9eb93637d47f82ab6f1c15871cf8dd0481",
+    "role": "ADMIN"
+  },
+  {
+    "id": "30b0319e-419d-4e8e-aa13-9ba3a2d01f24",
+    "email": "slavaborsak65@gmail.com",
+    "passwordHash": "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3",
+    "role": "ADMIN"
+  },
+  {
+    "id": "31a20744-5935-40d7-b939-d5f1a01fe828",
+    "email": "slavaborsak66@gmail.com",
+    "passwordHash": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
     "role": "SUBSCRIBER"
   }
 ]
