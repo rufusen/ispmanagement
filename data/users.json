@@ -12,15 +12,39 @@
     "role": "SUBSCRIBER"
   },
   {
-    "id": "7d3b95fb-54ef-4cc0-ae2c-b171e79675b5",
-    "email": "slavaborsak67@gmail.com",
-    "passwordHash": "bfe2e744ac3884d4e4f1c528fcad1cc5d88c177152e5270bfc7ade3324dcfe7e",
-    "role": "SUBSCRIBER"
-  },
-  {
     "id": "0eb1ac9a-cdb7-4dcf-8332-0f11edbf6e2c",
     "email": "john.doe@example.com",
     "passwordHash": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "role": "SUBSCRIBER"
+  },
+  {
+    "id": "80734894-093c-4b54-a4c2-66f2435cb706",
+    "email": "efwfwefwefwef@gmail.com",
+    "passwordHash": "ddc10a5906f8c0ea77bac646567f9680f2b6f989f35485f0cc65b7b5a223d32c",
+    "role": "ADMIN"
+  },
+  {
+    "id": "918b174c-9d78-46b2-a8da-2e53c127e766",
+    "email": "dsfgeraggrerger@gmail.com",
+    "passwordHash": "cbfad02f9ed2a8d1e08d8f74f5303e9eb93637d47f82ab6f1c15871cf8dd0481",
+    "role": "SUBSCRIBER"
+  },
+  {
+    "id": "4c06f6cc-84b4-412f-8ae7-29f54346c2cf",
+    "email": "wefawergerwg3rg@gmail.com",
+    "passwordHash": "cbfad02f9ed2a8d1e08d8f74f5303e9eb93637d47f82ab6f1c15871cf8dd0481",
+    "role": "ADMIN"
+  },
+  {
+    "id": "28a35a8a-4e9f-4292-8de8-bef95b8931f1",
+    "email": "wfjwoifhpweohfwehufi@gmail.com",
+    "passwordHash": "cbfad02f9ed2a8d1e08d8f74f5303e9eb93637d47f82ab6f1c15871cf8dd0481",
+    "role": "ADMIN"
+  },
+  {
+    "id": "7d3b95fb-54ef-4cc0-ae2c-b171e79675b5",
+    "email": "slavaborsak67@gmail.com",
+    "passwordHash": "bfe2e744ac3884d4e4f1c528fcad1cc5d88c177152e5270bfc7ade3324dcfe7e",
     "role": "SUBSCRIBER"
   },
   {
@@ -32,6 +56,18 @@
   {
     "id": "1cde462e-0823-49c4-bd00-9cc0b3c0ee60",
     "email": "wegfwegweg@gmail.com",
+    "passwordHash": "cbfad02f9ed2a8d1e08d8f74f5303e9eb93637d47f82ab6f1c15871cf8dd0481",
+    "role": "ADMIN"
+  },
+  {
+    "id": "c4d17911-7937-40fa-bb28-53ad6fa8a117",
+    "email": "sfgeraggrerger@gmail.com",
+    "passwordHash": "cbfad02f9ed2a8d1e08d8f74f5303e9eb93637d47f82ab6f1c15871cf8dd0481",
+    "role": "OPERATOR"
+  },
+  {
+    "id": "c1f12740-7b98-4993-8cd8-d3f32ea1acc8",
+    "email": "wefewfwefwef@gmail.com",
     "passwordHash": "cbfad02f9ed2a8d1e08d8f74f5303e9eb93637d47f82ab6f1c15871cf8dd0481",
     "role": "ADMIN"
   },

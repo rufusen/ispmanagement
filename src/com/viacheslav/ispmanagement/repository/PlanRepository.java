@@ -4,9 +4,15 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
 import com.viacheslav.ispmanagement.model.Plan;
-import java.io.FileReader;
-import java.io.FileWriter;
+import com.viacheslav.ispmanagement.util.AppPaths;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
 import java.lang.reflect.Type;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -18,7 +24,7 @@ import java.util.stream.Collectors;
 public class PlanRepository implements CrudRepository<Plan> {
 
   private final Map<UUID, Plan> identityMap = new HashMap<>();
-  private final String filePath = "data/plans.json";
+  private final Path filePath = AppPaths.getDataDirectory().resolve("plans.json");
   private final Gson gson;
 
   public PlanRepository() {
@@ -69,15 +75,34 @@ public class PlanRepository implements CrudRepository<Plan> {
   // ---------- FILE WORK ----------
 
   private void saveToFile() {
-    try (FileWriter writer = new FileWriter(filePath)) {
+    try {
+      Files.createDirectories(filePath.getParent());
+      if (!Files.exists(filePath)) {
+        Files.createFile(filePath);
+      }
+    } catch (Exception e) {
+      System.err.println("Failed preparing plans file: " + filePath.toAbsolutePath());
+      e.printStackTrace();
+      throw new RuntimeException("Error saving plans to file", e);
+    }
+
+    try (OutputStreamWriter writer = new OutputStreamWriter(
+        new FileOutputStream(filePath.toFile()), StandardCharsets.UTF_8)) {
       gson.toJson(identityMap.values(), writer);
     } catch (Exception e) {
+      System.err.println("Error saving plans to file: " + filePath.toAbsolutePath());
+      e.printStackTrace();
       throw new RuntimeException("Error saving plans to file", e);
     }
   }
 
   private void loadFromFile() {
-    try (FileReader reader = new FileReader(filePath)) {
+    if (!Files.exists(filePath)) {
+      return;
+    }
+
+    try (InputStreamReader reader = new InputStreamReader(
+        new FileInputStream(filePath.toFile()), StandardCharsets.UTF_8)) {
       Type listType = new TypeToken<List<Plan>>() {
       }.getType();
       List<Plan> plans = gson.fromJson(reader, listType);
@@ -87,8 +112,9 @@ public class PlanRepository implements CrudRepository<Plan> {
           identityMap.put(p.getId(), p);
         }
       }
-    } catch (Exception ignored) {
-      // файл може не існувати — нормально
+    } catch (Exception e) {
+      System.err.println("Error loading plans from file: " + filePath.toAbsolutePath());
+      e.printStackTrace();
     }
   }
 }

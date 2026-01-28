@@ -49,6 +49,13 @@
     "description": "Test description"
   },
   {
+    "id": "1e3a9fb2-e441-456e-9f9d-c598cd915f6d",
+    "name": "аукацуа",
+    "price": 211212,
+    "speedMbps": 1111,
+    "description": "1212"
+  },
+  {
     "id": "14c1d91a-1c8e-42e0-87a9-450ed249c2a4",
     "name": "Test Plan",
     "price": 500,

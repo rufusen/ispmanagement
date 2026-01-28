@@ -2,7 +2,7 @@
   {
     "id": "6b8b6361-c0c3-4a99-be87-3897afd37622",
     "createdAt": "2026-01-22T18:25:09.398746200",
-    "status": "IN_PROGRESS",
+    "status": "OPEN",
     "description": "No internet"
   },
   {
@@ -10,6 +10,12 @@
     "createdAt": "2026-01-22T18:42:13.009592700",
     "status": "OPEN",
     "description": "No internet"
+  },
+  {
+    "id": "dec61a4f-4ab8-40e8-9297-8023b1d1caf8",
+    "createdAt": "2026-01-28T16:39:30.582545200",
+    "status": "OPEN",
+    "description": "ацацацуа"
   },
   {
     "id": "762e68bc-1300-4258-a40b-f025a0c8f994",

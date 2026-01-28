@@ -1,28 +1,5 @@
 [
   {
-    "id": "b4367856-e8de-4ae3-97c2-9a191e77bf32",
-    "fullName": "Test User",
-    "phone": "+380000000000",
-    "registrationDate": "2026-01-22",
-    "plan": {
-      "id": "14c1d91a-1c8e-42e0-87a9-450ed249c2a4",
-      "name": "Test Plan",
-      "price": 500,
-      "speedMbps": 500,
-      "description": "Test description"
-    },
-    "payments": [
-      {
-        "id": "2bd2543e-3128-4ab0-878f-c58bdad3aeae",
-        "paymentDate": "2026-01-26T17:32:04.778279200",
-        "amount": 1111,
-        "method": "готівка"
-      }
-    ],
-    "equipmentList": [],
-    "tickets": []
-  },
-  {
     "id": "56f94120-23f7-49ea-9ff3-2adf816f77e0",
     "fullName": "Caren McDermott",
     "phone": "1-603-818-8064",
@@ -211,6 +188,35 @@
     "tickets": []
   },
   {
+    "id": "12140e35-ed73-4672-83b5-3ff4e8090443",
+    "fullName": "цуаца",
+    "phone": "343232324535",
+    "registrationDate": "2026-01-28",
+    "address": {
+      "id": "d3da4ee6-e522-442b-add8-22c967727631",
+      "city": "уацацуа",
+      "street": "ммцмцм",
+      "house": "21321",
+      "apartment": "12"
+    },
+    "plan": {
+      "id": "cb3edbd9-828e-47dd-b9ee-9c9a7dc1aae0",
+      "name": "ацуацуацуа",
+      "price": 12121,
+      "speedMbps": 2222,
+      "description": "ацуац3а"
+    },
+    "user": {
+      "id": "4c06f6cc-84b4-412f-8ae7-29f54346c2cf",
+      "email": "wefawergerwg3rg@gmail.com",
+      "passwordHash": "cbfad02f9ed2a8d1e08d8f74f5303e9eb93637d47f82ab6f1c15871cf8dd0481",
+      "role": "ADMIN"
+    },
+    "payments": [],
+    "equipmentList": [],
+    "tickets": []
+  },
+  {
     "id": "9249c978-71a5-4e36-8fcf-29593ac551dc",
     "fullName": "edededed",
     "phone": "380970876571",
@@ -272,6 +278,35 @@
       "price": 500,
       "speedMbps": 500,
       "description": "Test description"
+    },
+    "payments": [],
+    "equipmentList": [],
+    "tickets": [
+      {
+        "id": "dec61a4f-4ab8-40e8-9297-8023b1d1caf8",
+        "createdAt": "2026-01-28T16:39:30.582545200",
+        "status": "OPEN",
+        "description": "ацацацуа"
+      }
+    ]
+  },
+  {
+    "id": "26b039e3-b3d7-40dd-9a4f-a69a4194baef",
+    "fullName": "dsfgeraggrerger@gmail.com",
+    "phone": "not specified",
+    "registrationDate": "2026-01-28",
+    "plan": {
+      "id": "bb85ea05-ad56-45c1-8baa-4f7f87c613c6",
+      "name": "мінімальний",
+      "price": 160,
+      "speedMbps": 100,
+      "description": "звичайна швидкість"
+    },
+    "user": {
+      "id": "918b174c-9d78-46b2-a8da-2e53c127e766",
+      "email": "dsfgeraggrerger@gmail.com",
+      "passwordHash": "cbfad02f9ed2a8d1e08d8f74f5303e9eb93637d47f82ab6f1c15871cf8dd0481",
+      "role": "SUBSCRIBER"
     },
     "payments": [],
     "equipmentList": [],

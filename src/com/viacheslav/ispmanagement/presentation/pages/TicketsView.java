@@ -212,6 +212,7 @@ public class TicketsView {
       System.out.println("Помилка: " + e.getMessage());
     } catch (Exception e) {
       System.out.println("Помилка: " + e.getMessage());
+      e.printStackTrace();
     }
   }
 
@@ -259,6 +260,7 @@ public class TicketsView {
       System.out.println("Помилка: " + e.getMessage());
     } catch (Exception e) {
       System.out.println("Помилка: " + e.getMessage());
+      e.printStackTrace();
     }
   }
 
@@ -328,6 +330,7 @@ public class TicketsView {
       System.out.println("Помилка: " + e.getMessage());
     } catch (Exception e) {
       System.out.println("Помилка: " + e.getMessage());
+      e.printStackTrace();
     }
   }
 }

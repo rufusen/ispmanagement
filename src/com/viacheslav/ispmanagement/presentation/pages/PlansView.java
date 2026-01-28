@@ -104,6 +104,7 @@ public class PlansView {
       System.out.println("Помилка: " + e.getMessage());
     } catch (Exception e) {
       System.out.println("Помилка: " + e.getMessage());
+      e.printStackTrace();
     }
   }
 }

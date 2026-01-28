@@ -4,9 +4,15 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
 import com.viacheslav.ispmanagement.model.User;
-import java.io.FileReader;
-import java.io.FileWriter;
+import com.viacheslav.ispmanagement.util.AppPaths;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
 import java.lang.reflect.Type;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -18,7 +24,7 @@ import java.util.stream.Collectors;
 public class UserRepository implements CrudRepository<User> {
 
   private final Map<UUID, User> identityMap = new HashMap<>();
-  private final String filePath = "data/users.json";
+  private final Path filePath = AppPaths.getDataDirectory().resolve("users.json");
   private final Gson gson;
 
   public UserRepository() {
@@ -63,23 +69,43 @@ public class UserRepository implements CrudRepository<User> {
   }
 
   private void saveToFile() {
-    try (FileWriter writer = new FileWriter(filePath)) {
+    try {
+      Files.createDirectories(filePath.getParent());
+      if (!Files.exists(filePath)) {
+        Files.createFile(filePath);
+      }
+    } catch (Exception e) {
+      System.err.println("Failed preparing users file: " + filePath.toAbsolutePath());
+      e.printStackTrace();
+      throw new RuntimeException("Error saving users to file", e);
+    }
+
+    try (OutputStreamWriter writer = new OutputStreamWriter(
+        new FileOutputStream(filePath.toFile()), StandardCharsets.UTF_8)) {
       gson.toJson(identityMap.values(), writer);
     } catch (Exception e) {
+      System.err.println("Error saving users to file: " + filePath.toAbsolutePath());
+      e.printStackTrace();
       throw new RuntimeException("Error saving users to file", e);
     }
   }
 
   private void loadFromFile() {
-    try (FileReader reader = new FileReader(filePath)) {
+    if (!Files.exists(filePath)) {
+      return;
+    }
+
+    try (InputStreamReader reader = new InputStreamReader(
+        new FileInputStream(filePath.toFile()), StandardCharsets.UTF_8)) {
       Type type = new TypeToken<List<User>>() {
       }.getType();
       List<User> list = gson.fromJson(reader, type);
       if (list != null) {
         list.forEach(u -> identityMap.put(u.getId(), u));
       }
-    } catch (Exception ignored) {
-      // File may not exist - that's OK
+    } catch (Exception e) {
+      System.err.println("Error loading users from file: " + filePath.toAbsolutePath());
+      e.printStackTrace();
     }
   }
 }

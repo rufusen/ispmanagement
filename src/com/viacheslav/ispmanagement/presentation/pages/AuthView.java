@@ -65,6 +65,7 @@ public class AuthView {
       }
     } catch (Exception e) {
       System.out.println("Помилка: " + e.getMessage());
+      e.printStackTrace();
       return null;
     }
   }
@@ -81,6 +82,7 @@ public class AuthView {
       System.out.println("Реєстрація не вдалася: " + e.getMessage());
     } catch (Exception e) {
       System.out.println("Помилка: " + e.getMessage());
+      e.printStackTrace();
     }
   }
 }
